@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 1.5px solid black;
+    border-radius: 2px;
+    width: 60%;
+    display: flex;
+}
+
+.a4-page {
+    border: 2px solid black;
+    height: 297mm;
+    width: 210mm;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+#name {
+    font-size: 36pt;
+}
+
+#title {
+    color: lightgreen;
+}
