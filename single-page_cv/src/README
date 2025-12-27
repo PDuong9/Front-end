@@ -1,0 +1,26 @@
+# Single-Page CV
+
+A simple, responsive, single-page CV built with **HTML** and **CSS**.
+
+---
+
+## Features
+
+- Personal info (name, contact, location)
+- Skills, Education, Work Experience
+- Links to social profiles (LinkedIn, GitHub, etc.)
+- Mobile-friendly layout
+- Easy to customize
+
+---
+
+## Usage
+
+1. Open `index.html` in your browser.
+2. Edit `index.html` to add your personal information.
+3. Modify `style.css` to change styles if needed.
+4. Optional: Add a favicon in the `<head>` for browser tabs.
+
+---
+
+## Project Structure
