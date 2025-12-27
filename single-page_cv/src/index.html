@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- SEO meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The goal of this project is to teach you how to create a 
+    structured, single-page CV using only HTML.">
+    
+    <!-- Title -->
     <title>Single-Page CV</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="cv_fav.png" sizes="32x32" type="image/png">
+
+    <!-- Open Graph (OG) Tags -->
+    <meta property="og:title" content="Your Name - Junior Frontend Developer">
+    <meta property="og:description" content="Check out my single-page CV showcasing my skills, education, and experience.">
+    <meta property="og:image" content="https://example.com/images/cv-banner.png">
+    <meta property="og:url" content="https://example.com/your-cv-page">
+    <meta property="og:type" content="website">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,68 +28,76 @@
         <header>
             <hr>
             <p id="name">Your Name</p>
-            <p id="title">Junior Frontend Developer</p>
+            <p class="title">Junior Frontend Developer</p>
             <p>
-                123 Your Street
-                Your City, ST 12345
-                (123) 456-7890
-                no_reply@example.com
+                123 Your Street <br>
+                Your City, ST 12345 <br>
+                (123) 456-7890 <br>
+                no_reply@example.com <br>
             </p>
         </header>
 
         <main>
-            <div id="skill">
-                <p id="title">Skills</p>
+            <div class="section">
+                <p class="title">Skills</p>
                 <p>
                     HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design,<br>
                     Technical Writing, Presentation
                 </p>
             </div>
 
-            <div id="education">
-                <p id="title">Education</p>
+            <div class="section">
+                <p class="title">Education</p>
                 <p>
-                    School Name, Location - Degree<br>
+                    <span class="highlight">School Name, Location - Degree</span><br>
                     Month 20xx to Month 20xx<br>
                     List of exciting things you did at university
                 </p>
             </div>
 
-            <div id="experience">
-                <p id="title">Experiece</p>
-                <p>Company Name, Location - Job Title <br>
-                    Month 20xx to Month 20xx
-                </p>
-                <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                </ul>
-                <p>
-                    Skills: List of skills used or gained at this company
-                </p>
+            <div class="section">
+                <p class="title">Experiece</p>
+                <div class="job">
+                    <p>
+                        <span class="highlight">Company Name, Location - Job Title</span><br>
+                        Month 20xx to Month 20xx
+                    </p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p>
+                        Skills: List of skills used or gained at this company
+                    </p>
+                </div>
 
-                <p>Company Name, Location - Job Title <br>
-                    Month 20xx to Month 20xx
-                </p>
-                <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                </ul>
-                <p>
-                    Skills: List of skills used or gained at this company
-                </p>
+                <div class="job">
+                    <p>
+                        <span class="highlight">Company Name, Location - Job Title</span><br>
+                        Month 20xx to Month 20xx
+                    </p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p>
+                        Skills: List of skills used or gained at this company
+                    </p>
+                </div>
             </div>
         </main>
 
         <footer>
-            <p id="title">
-                Across the Internet
-            </p>
-            <p>
-                Add your LinkedIn, GitHub profile links
-            </p>
+            <div class="section">
+                <p class="title">
+                    Across the Internet
+                </p>
+                <p>
+                    Add your LinkedIn, GitHub profile links
+                </p>
+            </div>
         </footer>
     </div>    
 </body>

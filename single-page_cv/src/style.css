@@ -1,28 +1,62 @@
+/* Google fonts source */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
+    font-family: "Nunito", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 hr {
-    border: 1.5px solid black;
-    border-radius: 2px;
-    width: 60%;
-    display: flex;
+    border: 1.7px solid black;
+    border-radius: 4px;
+    width: 80%;
+    margin-left: 0;
 }
 
 .a4-page {
     border: 2px solid black;
-    height: 297mm;
+    height: 280mm;
     width: 210mm;
     box-sizing: border-box;
-    padding: 80px;
+    padding: 60px 80px;
 }
 
 #name {
-    font-size: 36pt;
+    font-size: 24pt;
+    margin: 15px 0;
 }
 
-#title {
-    color: lightgreen;
+.title {
+    color: rgb(69, 168, 69);
+}
+
+.section {
+    margin-bottom: 30px;
+}
+.section .title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 0;
+}
+
+.highlight {
+    color: blue;
+    font-size: 18px;
+}
+
+.section ul {
+    margin: 8px 0;
+    padding-left: 25px;
+}
+
+.section li {
+    margin: 5px 0;
+}
+
+.section .job {
+    margin-bottom: 20px;
 }
